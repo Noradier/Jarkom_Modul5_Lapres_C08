@@ -126,7 +126,7 @@ Akses dari subnet GRESIK hanya diperbolehkan pada pukul 17.00 hingga pukul 07.00
 
 - Pada **Malang**, diberikan iptables berikut.
 ```
-iptables -A INPUT -s 192.168.4.0/24 -m time --timestart 07:01 --timestop 16:59 -j REJECT
+iptables -A INPUT -s 192.168.0.0/24 -m time --timestart 07:01 --timestop 16:59 -j REJECT
 ```
 
 ![4](4.png)
